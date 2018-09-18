@@ -1,0 +1,2 @@
+rootProject.name = 'http-apache-httpclient'
+enableFeaturePreview('STABLE_PUBLISHING')
