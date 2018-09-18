@@ -1,0 +1,26 @@
+{
+  "package": {
+    "name": "client-http-apache-httpclient",
+    "repo": "jdregistry",
+    "subject": "lukaszimmermann",
+    "labels": ["kotlin", "bintray", "gradle", "docker", "registry", "client", "http", "Apache", "HTTP", "apache"],
+    "vcs_url": "https://github.com/JDregistry/client-http-apache-httpclient.git",
+    "licenses": ["MIT"]
+  },
+
+  "version": {
+    "name": "0.0.6",
+    "released": "2018-09-18",
+    "gpgSign": false
+  },
+
+  "files":
+  [
+    {
+      "includePattern": "build/libs/(.*)",
+      "uploadPattern": "jdregistry/client/http-apache-httpclient/0.0.6/$1",
+      "matrixParams": { "override": 1 }
+    }
+  ],
+  "publish": true
+}
