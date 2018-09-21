@@ -62,7 +62,7 @@ publishing {
 
 model {
     tasks.generatePomFileForMavenPublication {
-        destination = file("$buildDir/libs/http-apache-httpclient-0.0.5.pom")
+        destination = file("$buildDir/libs/http-apache-httpclient-0.0.6.pom")
     }
 }
 
